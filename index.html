@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio | Marketing Digital y Ebooks</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #f7f8fa; color: #111; }
+    header { background: #111827; color: white; padding: 2rem; text-align: center; }
+    header h1 { font-size: 2.5rem; }
+    header p { margin-top: 0.5rem; font-size: 1.2rem; }
+
+    section.about { padding: 3rem 1rem; max-width: 900px; margin: auto; text-align: center; }
+    section.about h2 { font-size: 2rem; margin-bottom: 1rem; color: #111827; }
+    section.about p { font-size: 1.1rem; line-height: 1.7; color: #333; }
+
+    section.ebooks { background: white; padding: 3rem 1rem; }
+    .ebook-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; max-width: 1100px; margin: auto; }
+    .ebook-card { background: #f1f5f9; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 12px rgba(0,0,0,0.06); transition: 0.3s ease; }
+    .ebook-card:hover { transform: translateY(-5px); }
+    .ebook-card img { max-width: 100%; border-radius: 8px; }
+    .ebook-card h3 { margin-top: 1rem; font-size: 1.3rem; color: #1f2937; }
+    .ebook-card p { margin: 0.5rem 0 1rem; font-size: 0.95rem; color: #4b5563; }
+    .ebook-card a { display: inline-block; background: #3b82f6; color: white; padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: background 0.2s; }
+    .ebook-card a:hover { background: #2563eb; }
+
+    footer { text-align: center; padding: 2rem 1rem; background: #1f2937; color: #d1d5db; }
+    footer small { display: block; margin-top: 0.5rem; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi Marca Digital</h1>
+    <p>Educación y herramientas para emprendedores online</p>
+  </header>
+
+  <section class="about">
+    <h2>Sobre Mí</h2>
+    <p>Soy creador de contenido digital especializado en estrategias de marketing online. Ayudo a personas que desean emprender desde casa a través de ebooks, guías prácticas y herramientas que generan resultados. Mi misión es simplificar el marketing digital para que puedas vender por Internet con confianza y efectividad.</p>
+  </section>
+
+  <section class="ebooks">
+    <h2 style="text-align: center; margin-bottom: 2rem; color: #111827;">Mis Ebooks</h2>
+    <div class="ebook-grid">
+      <div class="ebook-card">
+        <img src="log.png" alt="Ebook Estrategias de Marketing Digital">
+        <h3>Estrategias de Marketing Digital</h3>
+        <p>Una guía completa para vender más usando contenido, redes, SEO, automatización y más.</p>
+        <a href="#">Ver más</a>
+      </div>
+      <div class="ebook-card">
+        <img src="Gana Dinero con ChatGPT.png" alt="Ebook Cómo Ganar Dinero con ChatGPT">
+        <h3>Gana Dinero con ChatGPT</h3>
+        <p>Aprende a usar la inteligencia artificial para crear servicios y productos digitales rentables.</p>
+        <a href="https://estroncri.github.io/ganar-dinero-chatgpt/">Ver más</a>
+      </div>
+      <!-- Puedes agregar más ebooks aquí -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mi Marca Digital. Todos los derechos reservados.</p>
+    <small>Hecho con pasión por el emprendimiento y la educación online.</small>
+  </footer>
+</body>
+</html>
+
